@@ -4,3 +4,6 @@
 ## Features
 - **Link check:** Identifies broken links (HTTP status other than 200) on a web page.
 - **Extract Links:** Collects all links found in `<a>` tags with the `href` attribute.
+
+## Requirements
+- Python 3.6 or higher;
