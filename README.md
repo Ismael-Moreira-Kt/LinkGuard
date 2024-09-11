@@ -7,3 +7,17 @@
 
 ## Requirements
 - Python 3.6 or higher;
+
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/seuusuario/LinkGuard.git
+cd LinkGuard
+```
+
+2. Install the necessary dependencies:
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+pip install -r requirements.txt
+```
