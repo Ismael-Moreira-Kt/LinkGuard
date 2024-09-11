@@ -48,3 +48,11 @@ def main(start_url):
             print(broken)
     else:
         print("No broken links found.")
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Check for broken links in a website.')
+    parser.add_argument('url', help='The URL of the site to check')
+    args = parser.parse_args()
+    
+    main(args.url)
