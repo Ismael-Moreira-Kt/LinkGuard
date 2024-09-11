@@ -28,3 +28,11 @@ To check for broken links on a website, run the script by passing the URL as an 
 ```bash
 python3 src/main.py http://example.com
 ```
+
+## Sample Output
+```bash
+python3 src/main.py https://github.com/
+    Found 99 links.
+    Broken links found:
+    https://www.linkedin.com/company/github
+```
