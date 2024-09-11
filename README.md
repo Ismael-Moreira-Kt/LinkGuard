@@ -21,3 +21,10 @@ python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
+
+## Use
+To check for broken links on a website, run the script by passing the URL as an argument.
+
+```bash
+python3 src/main.py http://example.com
+```
