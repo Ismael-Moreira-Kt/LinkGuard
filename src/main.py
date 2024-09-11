@@ -29,3 +29,22 @@ def find_links(url):
         print(f"Failed to retrieve the website: {e}")
 
     return links
+
+
+def main(start_url):
+    links = find_links(start_url)
+    print(f"Found {len(links)} links.")
+    
+    broken_links = []
+
+    for link in links:
+        if not check_link(link):
+            broken_links.append(link)
+    
+    if broken_links:
+        print("Broken links found:")
+
+        for broken in broken_links:
+            print(broken)
+    else:
+        print("No broken links found.")
